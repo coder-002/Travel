@@ -1,0 +1,11 @@
+.contactImg {
+  width: 100%;
+  align-items: center;
+  height: 70vh;
+}
+.contactImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}

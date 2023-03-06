@@ -1,0 +1,39 @@
+.aboutImg {
+  width: 100%;
+  height: 70vh;
+}
+.aboutImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.aboutImg h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  font-size: 5rem;
+  color: #fff;
+}
+
+.about-text {
+  margin: 4rem 6rem;
+}
+.about-text p {
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 850px) {
+  .aboutImg h1 {
+    font-size: 2rem;
+  }
+  .about-text {
+    margin: 4rem 1rem;
+  }
+  .about-text p {
+    font-size: 1rem;
+  }
+}
